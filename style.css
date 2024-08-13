@@ -1,0 +1,98 @@
+/* Reset margin, padding, and box-sizing for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Center the main content in the middle of the viewport */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300vh; /* Full height of the viewport */
+    margin: 0;
+    background-image: url(back.avif);
+}
+
+/* Style for the main container div */
+.div {
+    opacity: 0.8;
+    overflow: hidden;
+    width: 1300px; /* Width of the container */
+    background-repeat: no-repeat; /* Prevents the background from repeating */
+    background-position: center; /* Centers the background image */
+    border: 10px solid rgb(27, 148, 234); /* Red border around the container */
+    margin: 2px; /* Small margin around the container */
+    border-radius: 20px; /* Rounded corners for the container */
+    display: flex; /* Flexbox layout */
+    flex-direction: column; /* Stack child elements vertically */
+    justify-content: space-between; /* Distribute space between child elements */
+    height: 300vh; /* Fixed height of the container */
+}
+/* Style for the first inner div */
+.div1 {
+    display: flex; /* Flexbox layout */
+    flex-direction: column; /* Stack content vertically within this div */
+    justify-content: center; /* Center content vertically */
+    background-image: url(pic4.avif); /* Background image */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%; /* Full width of the container */
+    height: 300px; /* Fixed height for this section */
+    transform: rotate(-1deg); /* Slight rotation for a dynamic effect */
+    align-items: center; /* Center content horizontally */
+}
+/* Style for the second inner div */
+.div2 {
+    display: flex; /* Flexbox layout */
+    align-items: center; /* Center content horizontally */
+    flex-direction: column; /* Stack content vertically within this div */
+    justify-content: center; /* Center content vertically */
+    background-image: url(pic.avif); /* Background image */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%; /* Full width of the container */
+    height: 300px; /* Fixed height for this section */
+    transform: rotate(-1deg); /* Slight rotation for a dynamic effect */
+}
+
+/* Style for the third inner div */
+.div3 {
+    display: flex; /* Flexbox layout */
+    flex-direction: column; /* Stack content vertically within this div */
+    justify-content: center; /* Center content vertically */
+    background-image: url(pic2.jpg); /* Background image */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%; /* Full width of the container */
+    height: 300px; /* Fixed height for this section */
+    transform: rotate(-1deg); /* Slight rotation for a dynamic effect */
+    align-items: center; /* Center content horizontally */
+}
+
+/* Style for the fourth inner div */
+.div4 {
+    display: flex; /* Flexbox layout */
+    flex-direction: column; /* Stack content vertically within this div */
+    justify-content: center; /* Center content vertically */
+    background-image: url(pic-3.avif); /* Background image */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%; /* Full width of the container */
+    height: 300px; /* Fixed height for this section */
+    transform: rotate(-1deg); /* Slight rotation for a dynamic effect */
+    align-items: center; /* Center content horizontally */
+}
+
+/* Style for paragraphs within the inner divs */
+.para {
+    transform: rotate(1deg); /* Slight rotation opposite to the div for contrast */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* Font settings */
+    font-size: larger; /* Increase font size */
+}
+/* Style for headings within the inner divs */
+.head {
+    font-style: italic; /* Italicize the heading text */
+}
